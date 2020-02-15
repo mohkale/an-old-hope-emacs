@@ -1,6 +1,19 @@
 * An Old Hope - emacs
   Port of [[https://github.com/jesseleite/an-old-hope-syntax-atom][an-old-hope]] for GNU[[https://www.gnu.org/software/emacs/][ Emacs]].
 
+** Installation Instructions
+   1. copy *an-old-hope-theme.el* to a path in your *custom-theme-load-path*.
+   2. add a call to =(load-theme 'an-old-hope)= in your init file (either =~/.emacs=
+      or =~/.emacs.d/init.el=).
+
+** Notes
+   This theme is implemented as an org branch, in my personal emacs config. The file
+   distributed with this repository, is simply the tangled result of that branch.
+   If you intend to fork, keep, or maintain your own derivative of this theme, you
+   may find that you'll have an easier time of things using that branch instead.
+
+   You can find the branch [[https://github.com/mohkale/.emacs.d/blob/master/init.org][here]].
+
 ** Colors
     This theme makes use the following colors, it's recommended you use GUI emacs over
     the terminal interface to avoid colors being made to conform to terminal limitations;
@@ -51,20 +64,6 @@
    | line-highlight-bg |            | 228 |   7 |    21 |                                   |
    | extra-dark-grey   |            | 228 |   7 |    10 | variant for imbedded org blocks   |
    | debug             |            | 198 |  91 |    13 | dark blue                         |
-
-** Installation Instructions
-
-   1. copy *an-old-hope-theme.el* to a path in your *custom-theme-load-path*.
-   2. add a call to =(load-theme 'an-old-hope)= in your init file (either =~/.emacs=
-      or =~/.emacs.d/init.el=).
-
-** Notes
-   This theme is implemented as an org branch, in my personal emacs config. The file
-   distributed with this repository, is simply the tangled result of that branch.
-   If you intend to fork, keep, or maintain your own derivative of this theme, you
-   may find that you'll have an easier time of things using that branch instead.
-
-   You can find the branch [[https://github.com/mohkale/.emacs.d/blob/master/init.org][here]].
 
 ** Screenshots
    #+caption: an-old-hope-emacs
