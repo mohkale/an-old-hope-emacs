@@ -1,2 +1,67 @@
 * An Old Hope - emacs
   Port of [[https://github.com/jesseleite/an-old-hope-syntax-atom][an-old-hope]] for GNU[[https://www.gnu.org/software/emacs/][ Emacs]].
+
+** Colors
+    This theme makes use the following colors, it's recommended you use GUI emacs over
+    the terminal interface to avoid colors being made to conform to terminal limitations;
+    unless of course you have a true color terminal, to check if this is the case see [[https://gist.github.com/XVilka/8346728][here]].
+
+   #+NAME: an-old-hope-theme-color-associations
+   | color-name        | new-name   | hue | sat | light | description                       |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | very-light-grey   |            | 228 |   7 |    81 | shades of the millenium falcon    |
+   | light-grey        |            | 228 |   7 |    55 | shades of the millenium falcon    |
+   | grey              |            | 228 |   7 |    44 | shades of the millenium falcon    |
+   | dark-grey         |            | 228 |   7 |    29 | shades of the millenium falcon    |
+   | very-dark-grey    |            | 228 |   7 |    12 | shades of the millenium falcon    |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | vader             | red        | 352 |  81 |    58 | Vader's lightsaber                |
+   | vader-dim         | red-dim    | 352 |  60 |    58 |                                   |
+   | vader-int         | red-int    | 360 |  90 |    58 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | luke              | orange     |  25 |  86 |    55 | Luke's pilot uniform              |
+   | luke-dim          | orange-dim |  25 |  60 |    60 |                                   |
+   | luke-int          | orange-int |  25 |  86 |    65 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | threepio          | yellow     |  50 |  74 |    61 | Human cyborg relations            |
+   | threepio-dim      | yellow-dim |  50 |  74 |    31 |                                   |
+   | threepio-int      | yellow-int |  50 | 100 |    61 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | yoda              | green      | 107 |  40 |    57 | Fear is the path to the dark side |
+   | yoda-dim          | green-dim  | 100 |  30 |    57 |                                   |
+   | yoda-int          | green-int  | 120 |  50 |    57 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | artoo             | blue       | 196 |  64 |    58 | Whistle. Beep. Bloop.             |
+   | artoo-dim         | blue-dim   | 200 |  44 |    58 |                                   |
+   | artoo-int         | blue-int   | 220 |  84 |    64 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | purple            |            | 313 |  32 |    60 |                                   |
+   | purple-dim        |            | 313 |  32 |    70 |                                   |
+   | purple-int        |            | 313 |  40 |    60 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | turquoise         |            | 165 |  70 |    65 |                                   |
+   | turquoise-dim     |            | 165 |  60 |    85 |                                   |
+   | turquoise-int     |            | 165 |  80 |    50 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | black             |            | 240 |   6 |    14 |                                   |
+   | black-dim         |            | 240 |  10 |    20 |                                   |
+   | black-int         |            | 240 |   6 |    00 |                                   |
+   |-------------------+------------+-----+-----+-------+-----------------------------------|
+   | white             |            |   0 | 100 |   100 |                                   |
+   | line-highlight-bg |            | 228 |   7 |    21 |                                   |
+   | extra-dark-grey   |            | 228 |   7 |    10 | variant for imbedded org blocks   |
+   | debug             |            | 198 |  91 |    13 | dark blue                         |
+
+** Installation Instructions
+
+   1. copy *an-old-hope-theme.el* to a path in your *custom-theme-load-path*.
+   2. add a call to =(load-theme 'an-old-hope)= in your init file (either =~/.emacs=
+      or =~/.emacs.d/init.el=).
+
+** Notes
+   This theme is implemented as an org branch, in my personal emacs config. The file
+   distributed with this repository, is simply the tangled result of that branch.
+   If you intend to fork, keep, or maintain your own derivative of this theme, you
+   may find that you'll have an easier time of things using that branch instead.
+
+   You can find the branch [[https://github.com/mohkale/.emacs.d/blob/master/init.org][here]].
