@@ -1,0 +1,2 @@
+* An Old Hope - emacs
+  Port of [[https://github.com/jesseleite/an-old-hope-syntax-atom][an-old-hope]] for GNU[[https://www.gnu.org/software/emacs/][ Emacs]].
