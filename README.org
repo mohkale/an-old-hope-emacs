@@ -65,3 +65,7 @@
    may find that you'll have an easier time of things using that branch instead.
 
    You can find the branch [[https://github.com/mohkale/.emacs.d/blob/master/init.org][here]].
+
+** Screenshots
+   #+caption: an-old-hope-emacs
+   [[file:./emacs.png]].
