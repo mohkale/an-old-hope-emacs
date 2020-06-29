@@ -1,6 +1,9 @@
 * An Old Hope - emacs
   Port of [[https://github.com/jesseleite/an-old-hope-syntax-atom][an-old-hope]] for GNU[[https://www.gnu.org/software/emacs/][ Emacs]].
 
+   #+caption: an-old-hope
+   [[file:.github/main.png]]
+
 ** Installation Instructions
    1. copy *an-old-hope-theme.el* to a path in your *custom-theme-load-path*.
    2. add a call to =(load-theme 'an-old-hope)= in your init file (either =~/.emacs=
@@ -66,5 +69,8 @@
    | debug             |            | 198 |  91 |    13 | dark blue                         |
 
 ** Screenshots
+   #+caption: an-old-hope-term-wide
+   [[file:.github/term-wide.png]]
+
    #+caption: an-old-hope-emacs
-   [[file:./emacs.png]].
+   [[file:.github/emacs.png]]
